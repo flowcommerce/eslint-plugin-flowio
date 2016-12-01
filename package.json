@@ -4,6 +4,8 @@
   "description": "A package that provides ESLint rules used by Flow.io team as an extensible shared plugin",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf reports",
+    "coverage": "istanbul cover --dir reports/coverage node_modules/mocha/bin/_mocha tests/**/*.js -- --reporter dot",
     "lint": "eslint .",
     "test": "mocha tests/**/*.js --reporter dot"
   },
@@ -32,6 +34,7 @@
     "eslint-plugin-jsx-a11y": "2.2.3",
     "eslint-plugin-react": "6.7.1",
     "istanbul": "0.4.5",
-    "mocha": "3.2.0"
+    "mocha": "3.2.0",
+    "rimraf": "2.5.4"
   }
 }
