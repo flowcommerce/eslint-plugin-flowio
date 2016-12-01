@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/flowcommerce/eslint-plugin-flowio.svg?branch=master)](https://travis-ci.org/flowcommerce/eslint-plugin-flowio)
+
 # eslint-plugin-flowio
 
 A package that provides ESLint rules used by Flow.io team as an extensible shared plugin.
@@ -10,7 +12,7 @@ Install [ESLint](https://github.com/eslint/eslint) either locally or globally.
 $ npm install eslint
 ```
 
-If you installed ESLint globally, you have to install this plugin globally too. 
+If you installed ESLint globally, you have to install this plugin globally too.
 Otherwise, install it locally.
 
 ```
@@ -29,7 +31,7 @@ Add plugins section and specify `esling-plugin-flowio` as a plugin.
 }
 ```
 
-Finally, enable all of the rules that you would like to use. Use our preset to 
+Finally, enable all of the rules that you would like to use. Use our preset to
 get reasonable defaults quickly, and/or choose your own:
 
 ```json
