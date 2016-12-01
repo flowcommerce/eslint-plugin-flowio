@@ -24,7 +24,7 @@ Add plugins section and specify `esling-plugin-flowio` as a plugin.
 ```json
 {
   "plugins": [
-    "flowio"
+    "@flowio/flowio"
   ]
 }
 ```
