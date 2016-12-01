@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "A package that provides ESLint rules used by Flow.io team as an extensible shared plugin",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/flowcommerce/eslint-plugin-flowio.git"
@@ -19,5 +22,12 @@
   "contributors": [
     "Christian Muñoz <christian.munoz@flow.io>"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@flowio/eslint-config-flowio": "7.0.0",
+    "eslint": "3.11.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.7.1"
+  }
 }

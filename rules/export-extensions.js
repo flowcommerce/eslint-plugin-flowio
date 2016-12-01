@@ -3,12 +3,12 @@ const path = require('path');
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 
 const enumValues = {
-  enum: ['always', 'never']
+  enum: ['always', 'never'],
 };
 
 const patternProperties = {
   type: 'object',
-  patternProperties: { '.*': enumValues }
+  patternProperties: { '.*': enumValues },
 };
 
 module.exports = {
@@ -18,17 +18,17 @@ module.exports = {
       anyOf: [{
         type: 'array',
         items: [enumValues],
-        additionalItems: false
+        additionalItems: false,
       }, {
         type: 'array',
         items: [patternProperties],
-        additionalItems: false
+        additionalItems: false,
       }, {
         type: 'array',
         items: [enumValues, patternProperties],
-        additionalItems: false
-      }]
-    }
+        additionalItems: false,
+      }],
+    },
   },
   create(context) {
     const configuration = context.options[0] || 'never';
@@ -51,7 +51,7 @@ module.exports = {
         if (extension && isUseOfExtensionForbidden(extension)) {
           context.report({
             node: node.source,
-            message: `Unexpected use of file extension "${extension}" for "${exportPath}"`
+            message: `Unexpected use of file extension "${extension}" for "${exportPath}"`,
           });
         }
       }
@@ -59,7 +59,7 @@ module.exports = {
 
     return {
       ExportNamedDeclaration: checkFileExtension,
-      ExportAllDeclaration: checkFileExtension
+      ExportAllDeclaration: checkFileExtension,
     };
-  }
+  },
 };
