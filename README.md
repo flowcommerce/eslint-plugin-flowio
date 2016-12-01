@@ -1,6 +1,6 @@
 # eslint-plugin-flowio
 
-A collection of ESLint rules used internally by Flow.io team.
+A package that provides ESLint rules used by Flow.io team as an extensible shared plugin.
 
 ## Installation
 
