@@ -4,7 +4,8 @@
   "description": "A package that provides ESLint rules used by Flow.io team as an extensible shared plugin",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "mocha tests/**/*.js --reporter dot"
   },
   "repository": {
     "type": "git",
@@ -23,11 +24,14 @@
     "Christian Muñoz <christian.munoz@flow.io>"
   ],
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@flowio/eslint-config-flowio": "7.0.0",
+    "babel-eslint": "7.1.1",
     "eslint": "3.11.1",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "2.2.3",
-    "eslint-plugin-react": "6.7.1"
+    "eslint-plugin-react": "6.7.1",
+    "istanbul": "0.4.5",
+    "mocha": "3.2.0"
   }
 }
