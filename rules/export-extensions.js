@@ -11,7 +11,6 @@ const patternProperties = {
   patternProperties: { '.*': enumValues }
 };
 
-// { "console-internal/export-extensions": ["error", "never", { ".jsx": "never" }] }
 module.exports = {
   meta: {
     docs: {},

@@ -4,7 +4,7 @@ A package that provides ESLint rules used by Flow.io team as an extensible share
 
 ## Installation
 
-Install [ESLint][1] either locally or globally.
+Install [ESLint](https://github.com/eslint/eslint) either locally or globally.
 
 ```
 $ npm install eslint
@@ -40,4 +40,6 @@ get reasonable defaults quickly, and/or choose your own:
 }
 ```
 
-[1]: https://github.com/eslint/eslint
+# List of supported rules
+
+* [flowio/export-extensions](docs/rules/export-extensions.md): Ensure consistent use of file extension within the export path
