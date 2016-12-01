@@ -2,6 +2,6 @@
 
 module.exports = {
   rules: {
-    'export-extensions': require('./rules/export-extensions'),
+    'export-extensions': require('./lib/rules/export-extensions'),
   },
 };
