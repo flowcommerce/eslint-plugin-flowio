@@ -42,6 +42,10 @@ get reasonable defaults quickly, and/or choose your own:
 }
 ```
 
-# List of supported rules
+## List of supported rules
 
 * [flowio/export-extensions](docs/rules/export-extensions.md): Ensure consistent use of file extension within the export path
+
+## License
+
+MIT
