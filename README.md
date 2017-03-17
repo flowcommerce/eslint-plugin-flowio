@@ -9,14 +9,14 @@ A package that provides ESLint rules used by Flow.io team as an extensible share
 Install [ESLint](https://github.com/eslint/eslint) either locally or globally.
 
 ```
-$ npm install eslint
+$ npm install --save-dev eslint
 ```
 
 If you installed ESLint globally, you have to install this plugin globally too.
 Otherwise, install it locally.
 
 ```
-$ npm install eslint-plugin-flowio
+$ npm install --save-dev @flowio/eslint-plugin-flowio
 ```
 
 ## Configuration
