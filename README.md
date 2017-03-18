@@ -2,6 +2,8 @@
 
 # eslint-plugin-flowio
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/flowcommerce/eslint-plugin-flowio.svg)](https://greenkeeper.io/)
+
 A package that provides ESLint rules used by Flow.io team as an extensible shared plugin.
 
 ## Installation
