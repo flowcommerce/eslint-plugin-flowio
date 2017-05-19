@@ -27,14 +27,14 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@flowio/eslint-config-flowio": "8.0.0",
+    "@flowio/eslint-config-flowio": "8.1.0",
     "babel-eslint": "7.1.1",
-    "eslint": "3.13.1",
+    "eslint": "3.18.0",
     "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "3.0.2",
-    "eslint-plugin-react": "6.9.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.10.0",
     "istanbul": "0.4.5",
     "mocha": "3.2.0",
-    "rimraf": "2.5.4"
+    "rimraf": "2.6.1"
   }
 }
