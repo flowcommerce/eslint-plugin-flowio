@@ -35,6 +35,6 @@
     "eslint-plugin-react": "^7.3.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.5.3",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.2"
   }
 }
