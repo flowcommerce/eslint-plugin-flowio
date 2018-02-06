@@ -1,5 +1,5 @@
 const rule = require('../../../lib/rules/export-extensions');
-const RuleTester = require('eslint').RuleTester;
+const { RuleTester } = require('eslint');
 
 const ruleTester = new RuleTester();
 
