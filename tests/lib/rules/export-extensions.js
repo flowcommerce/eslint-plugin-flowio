@@ -1,5 +1,6 @@
-const rule = require('../../../lib/rules/export-extensions');
 const { RuleTester } = require('eslint');
+
+const rule = require('../../../lib/rules/export-extensions');
 
 const ruleTester = new RuleTester();
 
