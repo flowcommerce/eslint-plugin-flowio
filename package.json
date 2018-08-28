@@ -28,7 +28,7 @@
   "license": "MIT",
   "devDependencies": {
     "@flowio/eslint-config-flowio": "^12.1.0",
-    "babel-eslint": "^8.2.6",
+    "babel-eslint": "^9.0.0",
     "eslint": "^5.4.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
