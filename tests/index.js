@@ -1,10 +1,11 @@
-const plugin = require('..');
 const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
 
+const plugin = require('..');
+
 const ruleFiles = fs.readdirSync(path.resolve(__dirname, '../lib/rules'))
-  .map(file => path.basename(file, '.js'));
+  .map((file) => path.basename(file, '.js'));
 
 describe('all rule files should be exported by the plugin', () => {
   ruleFiles.forEach((ruleName) => {
