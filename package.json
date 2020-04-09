@@ -26,15 +26,15 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@flowio/eslint-config-flowio": "^13.0.0",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.18.2",
+    "@flowio/eslint-config-flowio": "^13.1.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "mocha": "^6.2.2",
-    "nyc": "^14.1.1",
-    "rimraf": "^3.0.0"
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1",
+    "rimraf": "^3.0.2"
   }
 }
