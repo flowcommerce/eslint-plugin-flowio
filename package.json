@@ -1,6 +1,6 @@
 {
   "name": "@flowio/eslint-plugin-flowio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A package that provides ESLint rules used by Flow.io team as an extensible shared plugin",
   "main": "index.js",
   "scripts": {
