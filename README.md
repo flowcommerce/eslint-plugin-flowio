@@ -1,6 +1,6 @@
 # eslint-plugin-flowio
 
-[![Build Status](https://travis-ci.org/flowcommerce/eslint-plugin-flowio.svg?branch=master)](https://travis-ci.org/flowcommerce/eslint-plugin-flowio)
+[![Build Status](https://travis-ci.org/flowcommerce/eslint-plugin-flowio.svg?branch=main)](https://travis-ci.org/flowcommerce/eslint-plugin-flowio)
 [![Greenkeeper badge](https://badges.greenkeeper.io/flowcommerce/eslint-plugin-flowio.svg)](https://greenkeeper.io/)
 
 A package that provides ESLint rules used by Flow.io team as an extensible shared plugin.
